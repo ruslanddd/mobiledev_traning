@@ -20,7 +20,6 @@
   </synonym>
   <comment>Категории контента приложения и сайта</comment>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.КатегорииКонтента.StandardAttribute.Code</inputByString>
   <inputByString>Catalog.КатегорииКонтента.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
@@ -28,11 +27,8 @@
   <fullTextSearch>Use</fullTextSearch>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
-  <codeLength>2</codeLength>
   <descriptionLength>45</descriptionLength>
   <codeAllowedLength>Variable</codeAllowedLength>
-  <checkUnique>true</checkUnique>
-  <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
