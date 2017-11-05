@@ -33,4 +33,5 @@
     <comment></comment>
     <languageCode>ru</languageCode>
   </languages>
+  <catalogs>Catalog.КатегорииКонтента</catalogs>
 </mdclass:Configuration>

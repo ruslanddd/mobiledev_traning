@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52f65ce0-1639-49bb-8df6-9e4fcb758662">
+  <producedTypes>
+    <objectType typeId="2d2b9fbf-3e21-4d43-938f-b67795f45a73" valueTypeId="58f2a7dc-4ce4-474a-9ca4-a23be512cbba">
+    </objectType>
+    <refType typeId="4403cbd5-16d4-40b0-a3fa-b6d37146a3b1" valueTypeId="954aa0f0-de42-4712-ba5c-3f0e4592b3f1">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="3f3236ee-1c23-4df5-b869-a7b2220733e9" valueTypeId="2eca5ea9-32ef-48fb-a931-5fc06e750399">
+    </selectionType>
+    <listType typeId="534ebf11-9d30-456c-aac9-f813cf398a4a" valueTypeId="96342194-ec43-49ba-bd53-f2937659172b">
+    </listType>
+    <managerType typeId="4ddd6065-6ab4-4eb7-9924-e4ebc0ed92e5" valueTypeId="de1b6d29-4b85-4182-afdd-c37acf359f78">
+    </managerType>
+  </producedTypes>
+  <name>КатегорииКонтента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категории</value>
+  </synonym>
+  <comment>Категории контента приложения и сайта</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КатегорииКонтента.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.КатегорииКонтента.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>2</codeLength>
+  <descriptionLength>45</descriptionLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
