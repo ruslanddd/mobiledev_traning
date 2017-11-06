@@ -34,4 +34,5 @@
     <languageCode>ru</languageCode>
   </languages>
   <catalogs>Catalog.КатегорииКонтента</catalogs>
+  <catalogs>Catalog.Контент</catalogs>
 </mdclass:Configuration>
