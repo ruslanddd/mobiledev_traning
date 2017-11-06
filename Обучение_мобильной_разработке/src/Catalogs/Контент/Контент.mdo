@@ -19,8 +19,6 @@
     <value>Контент</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.Контент.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.Контент.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -37,6 +35,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Контент.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="0d9e4cfa-8a3e-43af-9486-40803022b1a6">
     <name>Медиа</name>
     <synonym>
@@ -48,4 +47,13 @@
     </type>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
+  <forms uuid="d99966a9-b7d1-4ab2-8f28-f4f5573b8080">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

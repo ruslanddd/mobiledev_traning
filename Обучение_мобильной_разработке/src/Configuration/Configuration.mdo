@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91c9b9d8-24bf-459f-a578-6b63f92dc8e2">
-  <name>Конфигурация</name>
+  <name>Безопасность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Безопасность</value>
+  </synonym>
   <comment></comment>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="7e30b768-4c0e-4bc1-8ac0-afd7eea65578"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="4aa2fc9b-948c-43d7-bb5e-68e74d22c6b3"/>
@@ -33,6 +37,8 @@
     <comment></comment>
     <languageCode>ru</languageCode>
   </languages>
+  <roles>Role.Администратор</roles>
+  <roles>Role.КонтентМенеджер</roles>
   <catalogs>Catalog.КатегорииКонтента</catalogs>
   <catalogs>Catalog.Контент</catalogs>
 </mdclass:Configuration>
