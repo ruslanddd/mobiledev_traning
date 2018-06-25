@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="acc9fd18-ca92-4884-bfca-d1c61313ead3">
+  <producedTypes>
+    <objectType typeId="afd6176d-c63f-4a25-80ec-ba629adb9c8f" valueTypeId="862f6c7c-274b-4b38-827a-71d8538bf634"/>
+    <refType typeId="e94fdf71-ccc1-46d1-9dd5-6b0a26a523e8" valueTypeId="25ab02b9-6392-40ee-9298-2e3b4d157f33">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="e68a7407-24f3-4504-bc89-b2d6bf5cc329" valueTypeId="796bce82-9b3c-4986-bc38-a26f595b4342"/>
+    <listType typeId="281d72b5-d19a-487d-9d52-dfdf45ee13b1" valueTypeId="3077c00c-bcfe-410c-b490-2855b7f2be2a"/>
+    <managerType typeId="a08bef8a-fba0-4e29-98de-cecef00bfcfe" valueTypeId="712a52d4-f798-4716-9e5f-66fe141b58eb"/>
+  </producedTypes>
+  <name>Видео</name>
+  <synonym>
+    <key>ru</key>
+    <value>Видео</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="f86b4213-0cdc-4f0d-b86c-df0df34e33ff">
+      <name>МладенецПодавился</name>
+      <description>Младенец подавился</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Видео.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="0d9e4cfa-8a3e-43af-9486-40803022b1a6">
+    <name>Обложка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обложка</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="ddf00b13-eeed-4e44-b98c-46049672f084">
+    <name>Youtube</name>
+    <synonym>
+      <key>ru</key>
+      <value>Youtube</value>
+    </synonym>
+    <comment>ссылка на видео в Yotube.com</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="e5c1148e-30e1-422a-965a-4b9b53197a8e">
+    <name>вИзбранном</name>
+    <synonym>
+      <key>ru</key>
+      <value>В избранном</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="d99966a9-b7d1-4ab2-8f28-f4f5573b8080">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

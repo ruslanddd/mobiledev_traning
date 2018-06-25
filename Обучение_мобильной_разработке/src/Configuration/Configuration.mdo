@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91c9b9d8-24bf-459f-a578-6b63f92dc8e2">
-  <name>Безопасность</name>
+  <name>SafetyCircle</name>
   <synonym>
     <key>ru</key>
-    <value>Безопасность</value>
+    <value>Круг безопасности</value>
   </synonym>
-  <comment></comment>
+  <comment>Приложение проекта &quot;Круг безопасности&quot;</comment>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="7e30b768-4c0e-4bc1-8ac0-afd7eea65578"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="4aa2fc9b-948c-43d7-bb5e-68e74d22c6b3"/>
   <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="6b4e0459-444a-4768-a6b8-c798f1bc18a8"/>
@@ -17,11 +17,19 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>MobileDevice</usePurposes>
   <scriptVariant>Russian</scriptVariant>
-  <vendor></vendor>
-  <version></version>
+  <vendor>БФ &quot;Быть Мамой&quot;</vendor>
+  <version>1.0</version>
   <updateCatalogAddress></updateCatalogAddress>
   <requiredMobileApplicationPermissions>Multimedia</requiredMobileApplicationPermissions>
   <defaultLanguage>Language.Русский</defaultLanguage>
+  <briefInformation>
+    <key>ru</key>
+    <value>Приложение проекта &quot;Круг безопасности&quot;</value>
+  </briefInformation>
+  <detailedInformation>
+    <key>ru</key>
+    <value>Приложение проекта &quot;Круг безопасности&quot;</value>
+  </detailedInformation>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <synchronousExtensionAndAddInCallUseMode>DontUse</synchronousExtensionAndAddInCallUseMode>
@@ -37,8 +45,14 @@
     <comment></comment>
     <languageCode>ru</languageCode>
   </languages>
+  <commonPictures>CommonPicture.ФондПрезидентскихГрантов</commonPictures>
   <roles>Role.Администратор</roles>
   <roles>Role.КонтентМенеджер</roles>
-  <catalogs>Catalog.КатегорииКонтента</catalogs>
-  <catalogs>Catalog.Контент</catalogs>
+  <commonCommands>CommonCommand.Контакты</commonCommands>
+  <commonCommands>CommonCommand.ФондПрезидентскихГрантов</commonCommands>
+  <commonCommands>CommonCommand.ПерваяПомощьДетям</commonCommands>
+  <commonForms>CommonForm.РабочийСтол</commonForms>
+  <commonForms>CommonForm.Контакты</commonForms>
+  <commonForms>CommonForm.ФондПрезидентскихГрантов</commonForms>
+  <catalogs>Catalog.Видео</catalogs>
 </mdclass:Configuration>
